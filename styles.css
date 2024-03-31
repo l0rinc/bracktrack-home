@@ -7,13 +7,12 @@ body {
     text-align: center;
 }
 header {
-    background: url('PotusTossHeader.jpg') no-repeat center center;
     background-size: cover;
     padding: 100px 0;
     text-align: center;
 }
 main {
-    width: 50em;
+    width: 1024px;
     margin: auto;
     background: #fff;
     padding: 20px;
