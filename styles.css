@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+header {
+    background: url('PotusTossHeader.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+main {
+    width: 50em;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: white;
+    font-size: 4em;
+    -webkit-text-stroke: 1px grey;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+    -webkit-text-stroke: 1px grey;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    background: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+ul li strong {
+    color: #0077cc;
+}
