@@ -36,17 +36,19 @@ h2 {
     padding: 0;
 }
 
-ul {
+.faq-list {
     list-style: none;
     padding: 0;
 }
-ul li {
+
+.faq-list li {
     background: #f8f8f8;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-ul li strong {
+
+.faq-list li strong {
     color: #0077cc;
 }
