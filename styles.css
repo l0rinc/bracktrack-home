@@ -8,14 +8,13 @@ body {
 }
 header {
     background-size: cover;
-    padding: 100px 0;
+    padding: 200px;
     text-align: center;
 }
 main {
     width: 1024px;
     margin: auto;
     background: #fff;
-    padding: 20px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
 }
 h1 {
@@ -36,6 +35,10 @@ h2 {
     padding: 0;
 }
 
+.narrow {
+    padding: 10px 100px;
+}
+
 .faq-list {
     list-style: none;
     padding: 0;
@@ -51,4 +54,22 @@ h2 {
 
 .faq-list li strong {
     color: #0077cc;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+li::before {
+    color: black;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
